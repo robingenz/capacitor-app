@@ -16,6 +16,7 @@
     "@capacitor/android": "^7.4.3",
     "@capacitor/browser": "latest",
     "@capacitor/core": "latest",
+    "@capacitor/ios": "^7.4.3",
     "@capacitor/splash-screen": "latest"
   },
   "devDependencies": {
