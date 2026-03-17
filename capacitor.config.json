@@ -1,5 +1,5 @@
 {
-  "appId": "com.example.app",
+  "appId": "dev.robingenz.capacitorjs.app",
   "appName": "capacitor-app",
   "bundledWebRuntime": false,
   "webDir": "dist",

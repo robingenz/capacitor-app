@@ -1,4 +1,4 @@
-package com.example.app;
+package dev.robingenz.capacitorjs.app;
 
 import com.getcapacitor.BridgeActivity;
 
