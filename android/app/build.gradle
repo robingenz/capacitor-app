@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "dev.robingenz.capacitorjs.app"
+    namespace "dev.robingenz.app"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "dev.robingenz.capacitorjs.app"
+        applicationId "dev.robingenz.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

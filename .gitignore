@@ -10,6 +10,7 @@ dist/
 .vscode/
 
 # Credentials
+*.p8
 credentials/
 
 TODO.md
