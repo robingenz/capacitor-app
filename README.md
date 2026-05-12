@@ -1,21 +1,27 @@
-# capacitor-app
+# cloud-capacitor-cocoapods-demo
 
-⚡️ Capacitor app template to create a minimal, reproducible example.
+[![Capawesome](https://github.com/capawesome-team/cloud-capacitor-cocoapods-demo/actions/workflows/capawesome.yml/badge.svg)](https://github.com/capawesome-team/cloud-capacitor-cocoapods-demo/actions/workflows/capawesome.yml)
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app), and comes with a very minimal shell for building an app.
+A demo project that shows how to build a [Capacitor](https://capacitorjs.com/) app with [CocoaPods](https://cocoapods.org/) for iOS dependencies using [Capawesome Cloud](https://capawesome.io/cloud/).
 
-This template only support the web platform by default.
-If you need the Android or iOS platform for your example, simply add it via the [Capacitor CLI](https://capacitorjs.com/docs/cli):
+## Stack
 
-```
-npm install @capacitor/<platform>
-npx cap add <platform>
-```
+- [Capacitor](https://capacitorjs.com/) — Android + iOS
+- [CocoaPods](https://cocoapods.org/) — native iOS dependencies
+- [npm](https://www.npmjs.com/) — package manager
+- [Vite](https://vitejs.dev/) — web build
 
-## Running this example
+## Continuous Integration
 
-To run the provided example, you can use `npm start` command.
+[`.github/workflows/capawesome.yml`](.github/workflows/capawesome.yml) builds the app on every push to `main`, on pull requests, and on manual dispatch using the [Capawesome CLI](https://capawesome.io/docs/cloud/cli/).
 
-```bash
-npm start
-```
+### Required GitHub Secrets
+
+| Secret | Description |
+| --- | --- |
+| `CAPAWESOME_CLOUD_TOKEN` | API token for Capawesome Cloud. |
+| `CAPAWESOME_CLOUD_APP_ID` | ID of the corresponding app in Capawesome Cloud. |
+
+## License
+
+See [LICENSE](LICENSE).
